@@ -3,6 +3,8 @@
 
 Simplistic custom message box for your view controllers without hassle and it can also jiggle!
 
+![TDGMessageKit](https://raw.githubusercontent.com/tdgunes/TDGMessageKit/master/Example/demonstration.gif)
+
 ##Requirements
 
 - iOS 7.0+ (8.0+ recommended)
@@ -106,6 +108,16 @@ On default every TDGMessageBox comes with a `UITapGestureRecognizer` built-in. I
 messageBox.onTap = {
 	println("Got tapped!")
 }
+
+```
+
+###Get White
+
+Regularly, you may want to switch image and labels to white, instead of default black. You can do this simply by:
+
+```swift
+
+messageBox.whiten()
 
 ```
 
