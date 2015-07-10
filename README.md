@@ -111,6 +111,16 @@ messageBox.onTap = {
 
 ```
 
+###Get White
+
+Regularly, you may want to switch image and labels to white, instead of default black. You can do this simply by:
+
+```swift
+
+messageBox.whiten()
+
+```
+
 * * *
 
 ## FAQ
