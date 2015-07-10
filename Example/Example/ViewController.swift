@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         var upperMessageBox = TDGMessageBox(orientation: .Bottom)
         upperMessageBox.titleLabel.text = "TitleLabel Example Text"
         upperMessageBox.bodyLabel.text = "BodyLabel Example Text"
+        upperMessageBox.view.alpha = 0.8
         upperMessageBox.addTo(self.view)
         upperMessageBox.toggle()
         

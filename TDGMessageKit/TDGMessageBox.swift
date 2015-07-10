@@ -26,7 +26,7 @@ public class TDGMessageBox: UIView  {
     
     
     public var onTap: OnTapCallBack?
-    var view: UIView!
+    public var view: UIView!
     let height = CGFloat(52)
     public var orientation: Orientation?
     
