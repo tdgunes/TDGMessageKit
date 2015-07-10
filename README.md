@@ -3,6 +3,8 @@
 
 Simplistic custom message box for your view controllers without hassle and it can also jiggle!
 
+![TDGMessageKit](https://raw.githubusercontent.com/tdgunes/TDGMessageKit/master/Example/demonstration.gif)
+
 ##Requirements
 
 - iOS 7.0+ (8.0+ recommended)
